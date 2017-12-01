@@ -6,16 +6,16 @@
 			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master/"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D1"
 		},
 		"infraVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D1"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_D1"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "openshiftprefix"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -30,34 +30,32 @@
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "admin"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "Tibco@123"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDH7x2mwhBfUdOjAs7jSbkWzYsyYD8X0qDivBFqiMt/SEqITegqQJC8Mpo7mmsJq41Day63qaT965bPKqA67HN+J7q2kyqkpwdd+cSWjYNaprYOlMN0jl+BknEp/szShbC3+USIqMVwLRigqaRVlyWgOV7USrYeUDbve2BEaEk4FsnSZNNQ3NGAZov322kN+zEBDU+iDBjr0zWwT9bQzUG5QVChVDscxrHqiQQ3vJFMNOuoM/O00vLOPfsDklvnhJCPkAyy3Z5Us0/y92Q2bInSAnwv7KOuS4HWkHnCpg41vdzNADAl0dpoaAG9p0GGOP0txT+DnTD3yBBzI7EKKm9t osawant@osawant-t420"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "keyvaultrg"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "omkarkeyvault"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "keysecret"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "ce571e25-2f92-4e99-b4ab-ba0ff17948d8"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "Tibco@123"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
 		},
-		"defaultSubDomain": {
-			"value": "changeme"
-		}
+		
 	}
 }
