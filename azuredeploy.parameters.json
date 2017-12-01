@@ -30,7 +30,7 @@
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "admin"
+			"value": "osadmin"
 		},
 		"openshiftPassword": {
 			"value": "Tibco@123"
